@@ -1,0 +1,22 @@
+.cardBody {
+    display: flex;
+    flex-direction: row;
+    background-color: #38adb1;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: white;
+}
+
+.title, .description, .image {
+    text-align: center;
+    border: 1px solid wheat;
+    margin: 5px;
+}
+
+.image {
+    width: 120px;
+    height: 100px;
+}
