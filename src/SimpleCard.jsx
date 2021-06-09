@@ -13,12 +13,12 @@ class SimpleCard extends Component {
             <div className="cardBody">
                 
                 <header className="simple-card">
-                    <Image imgUrl={image}/>
                 
                     <Title title="Simple React Card"/>
-                    
+
                     <Description description="React is an open-source front-end JavaScript library for building user interfaces or UI components."/>
                 </header>
+                <Image imgUrl={image}/>
                 
             </div>
         );

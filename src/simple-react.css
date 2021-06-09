@@ -1,29 +1,25 @@
 .cardBody {
-    margin-top: 80px;
     display: flex;
     flex-direction: row-reverse;
-    align-items: center;
+    text-align: center;
     justify-content: center;
-    color: rgb(0, 0, 0);
+    align-content: center;
+    margin: 20rem 30rem;
+    border: 2px solid greenyellow;
+    background-color: grey;
+    box-shadow: 10px 15px 5px black;
 
-}
-
-.simple-card {
-    
 }
 
 .title, .description {
-    text-align: center;
-    border: 1px solid rgb(173, 118, 16);
-    margin: 2px;
-    height: 60px;
-    flex-shrink: initial;
+    border: 1px solid black;
+    margin: 1px;
+    padding: auto;
 }
 
 .image {
-    border: 1px solid rgb(170, 120, 27);
+    border: 1px solid black;
     width: 120px;
-    height: 100px;
-    margin-right: 2px;
-    
+    height: 20vh;
+    margin-right: 1px;
 }
